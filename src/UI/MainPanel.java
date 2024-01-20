@@ -12,8 +12,8 @@ import java.io.IOException;
 public class MainPanel extends JPanel implements ActionListener {
     private BufferedImage backgroundImage;
     private JMenuBar menuBar;
-    private JMenu CommandLinks, SeparatorAndMarks,GenerateCommandLinks,GenerateCommandLinksFile;
-    private JMenuItem AddAndRemoveSeparators, AddAndRemoveMarks,Registrations,Deposits,Positions,Commissions,MovePosition,MoveUserToNewAff,Disqualify,ManualQualification,MarkAsFraud;
+    private JMenu CommandLinks, SeparatorAndMarks,GenerateCommandLinks,GenerateCommandLinksFile,GenerateFromExel;
+    private JMenuItem AddAndRemoveSeparators, AddAndRemoveMarks,Registrations,Deposits,Positions,Commissions,MovePosition,MoveUserToNewAff,Disqualify,ManualQualification,MarkAsFraud,XLSXFile,XLSFile,CSVFile;
     private JPanel northPanel;
     public MainPanel(){
         setLayout(new BorderLayout());
@@ -28,12 +28,11 @@ public class MainPanel extends JPanel implements ActionListener {
         CommandLinks.setFont(new Font("Arial",Font.BOLD,15));
         CommandLinks.setIcon(new ImageIcon("src/assets/command.png"));
         GenerateCommandLinks = new JMenu("Generate command links");
-
-        GenerateCommandLinks.addActionListener(this);
         GenerateCommandLinksFile = new JMenu("Generate command links from file");
-        GenerateCommandLinksFile.addActionListener(this);
+        GenerateFromExel = new JMenu("Generate from Excel file");
         CommandLinks.add(GenerateCommandLinks);
         CommandLinks.add(GenerateCommandLinksFile);
+        GenerateCommandLinksFile.add(GenerateFromExel);
 
         AddAndRemoveSeparators = new JMenuItem("Add/Remove Separators");
         AddAndRemoveSeparators.addActionListener(this);
@@ -41,21 +40,28 @@ public class MainPanel extends JPanel implements ActionListener {
         AddAndRemoveMarks.addActionListener(this);
         Registrations = new JMenuItem("Registrations");
         Registrations.addActionListener(this);
-        Deposits = new JMenuItem("Deposits");
+        Deposits = new JMenuItem("Deposits (Transactions)");
         Deposits.addActionListener(this);
         Positions = new JMenuItem("Positions");
         Positions.addActionListener(this);
-
+        CSVFile = new JMenuItem("Generate from .CSV file");
+        CSVFile.addActionListener(this);
+        XLSXFile = new JMenuItem(".XLSX file");
+        XLSXFile.addActionListener(this);
+        XLSFile = new JMenuItem(".XLS file");
+        XLSFile.addActionListener(this);
         SeparatorAndMarks = new JMenu("Separators and Marks");
         SeparatorAndMarks.setFont(new Font("Arial",Font.BOLD,15));
         SeparatorAndMarks.setIcon(new ImageIcon("src/assets/quotation.png"));
         SeparatorAndMarks.add(AddAndRemoveSeparators);
         SeparatorAndMarks.add(AddAndRemoveMarks);
-
+        GenerateCommandLinksFile.add(CSVFile);
         GenerateCommandLinks.add(Registrations);
         GenerateCommandLinks.add(Deposits);
         GenerateCommandLinks.add(Positions);
-
+        GenerateFromExel.add(XLSXFile);
+        GenerateFromExel.add(XLSFile);
+        //GenerateCommandLinksFile.add();
 
         menuBar = new JMenuBar();
         menuBar.add(CommandLinks);
@@ -95,6 +101,12 @@ public class MainPanel extends JPanel implements ActionListener {
         }
         if (e.getSource() == Positions && GeneratePositionsCommandLinksFrame.getFrameCounter() == 0){
             GeneratePositionsCommandLinksFrame frame = new GeneratePositionsCommandLinksFrame();
+        }
+        if (e.getSource() == XLSXFile && GenerateCommandLinksFromXLSXFileFrame.getFrameCounter() == 0){
+            GenerateCommandLinksFromXLSXFileFrame frame = new GenerateCommandLinksFromXLSXFileFrame();
+        }
+        if (e.getSource() == XLSFile && GenerateCommandLinksFromXLSXFileFrame.getFrameCounter() == 0){
+            GenerateCommandLinksFromXLSFileFrame frame = new GenerateCommandLinksFromXLSFileFrame();
         }
     }
 }

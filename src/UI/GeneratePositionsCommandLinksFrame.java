@@ -279,42 +279,49 @@ public class GeneratePositionsCommandLinksFrame extends JFrame implements Action
                     builder.append(String.format(baseURLformat, domain.getText(),userID.getText(),brand.getText(),pl.getText(),generateRandomID(),positionSum.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
             case "LOT Amount":
                 for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
                     builder.append(String.format(LotURL, domain.getText(),userID.getText(), brand.getText(),pl.getText(),generateRandomID(),positionSum.getText(), lotAmount.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
             case "Spread":
                 for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
                     builder.append(String.format(spreadURL, domain.getText(),userID.getText(),brand.getText(),pl.getText(),generateRandomID(),positionSum.getText(),spread.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
             case "Symbol":
                 for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
                     builder.append(String.format(symbolURL, domain.getText(),userID.getText(),brand.getText(),pl.getText(),generateRandomID(),positionSum.getText(),symbol.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
             case "LOT And Symbol":
                 for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
                     builder.append(String.format(LotSymbolURL, domain.getText(),userID.getText(),brand.getText(),pl.getText(),generateRandomID(),positionSum.getText(),lotAmount.getText(),symbol.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
             case "Pip,LOT And Symbol":
                 for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
                     builder.append(String.format(PipLotSymbolURL, domain.getText(),userID.getText(),brand.getText(),pl.getText(),generateRandomID(),positionSum.getText(),lotAmount.getText(),pip.getText(),symbol.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
             case "Spread And Symbol":
                 for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
                     builder.append(String.format(SpreadSymbolURL, domain.getText(),userID.getText(),brand.getText(),pl.getText(),generateRandomID(),positionSum.getText(),spread.getText(),symbol.getText())).append('\n');
                 }
                 outputArea.setText(builder.toString());
+                Idlist.clear();
                 break;
 
         }
