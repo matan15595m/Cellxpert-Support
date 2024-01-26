@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb17c616-9ff1-406f-8d0a-ccc662f778f1" name="Changes" comment="excel files commit2">
-      <change afterPath="$PROJECT_DIR$/src/assets/atsign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/dollar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/position.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/quotmark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/register.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/GenerateDepositsCommandLinksFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/GenerateDepositsCommandLinksFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/GeneratePositionsCommandLinksFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/GeneratePositionsCommandLinksFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/quotation.png" beforeDir="false" />
-    </list>
+    <list default="true" id="cb17c616-9ff1-406f-8d0a-ccc662f778f1" name="Changes" comment="finished working on files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "matan15595m"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9d1c1164-2c89-4ff4-a15f-bba81572c896" />
+        <option name="url" value="https://github.com/matan15595m/Cellxpert-Support" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,28 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
@@ -129,6 +131,7 @@
       <workItem from="1706119725427" duration="4788000" />
       <workItem from="1706213455883" duration="2214000" />
       <workItem from="1706275304890" duration="6940000" />
+      <workItem from="1706296106593" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -170,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705789890277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished working on files">
+      <option name="closed" value="true" />
+      <created>1706296284841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706296284841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +203,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="excel files commit" />
     <MESSAGE value="excel files commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel files commit2" />
+    <MESSAGE value="finished working on files" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished working on files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
