@@ -208,7 +208,9 @@ public class GeneratePositionsCommandLinksFrame extends JFrame implements Action
     }
     private void generateCommandLinks(){
         if (validateMandatoryInput()) {
-            if (generateMethod.getSelectedItem().equals("Generate positions ID manually")) generateManuallyCommandLinks();
+            if (generateMethod.getSelectedItem().equals("Generate positions ID manually")) {
+                generateManuallyCommandLinks();
+            }
             else generateAutomaticallyCommandLinks();
         }
         else {

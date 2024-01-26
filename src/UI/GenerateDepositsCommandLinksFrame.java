@@ -165,7 +165,7 @@ public class GenerateDepositsCommandLinksFrame extends JFrame implements ActionL
                 case "Generate transaction ID automatically":
                     StringBuilder builder1 = new StringBuilder();
                     for (int i = 0; i < Integer.parseInt(linksAmount.getText()); i++) {
-                        builder1.append(String.format(baseURLformat, domain.getText(),brand.getText(),userID.getText(),generateRandomID(),actionType.getText(),actionType.getText())).append('\n');
+                        builder1.append(String.format(baseURLformat, domain.getText(),brand.getText(),userID.getText(),generateRandomID(),transactionSum.getText(),actionType.getText())).append('\n');
                     }
                     outputArea.setText(builder1.toString());
                     Idlist.clear();
@@ -213,12 +213,12 @@ public class GenerateDepositsCommandLinksFrame extends JFrame implements ActionL
     private boolean validateInput(){
         switch (generateMethod.getSelectedItem().toString())
         {
-            case "Generate user and lead ID manually":
+            case "Generate transaction ID manually":
                 if(domain.getText().isEmpty() || userID.getText().isEmpty() || brand.getText().isEmpty() || transactionID.getText().isEmpty() || transactionSum.getText().isEmpty() || actionType.getText().isEmpty() || linksAmount.getText().isEmpty()) {
                     return false;
                 }
                 break;
-            case "Generate user and lead ID automatically":
+            case "Generate transaction ID automatically":
                 if(domain.getText().isEmpty() || userID.getText().isEmpty() || brand.getText().isEmpty() || transactionSum.getText().isEmpty() || actionType.getText().isEmpty() || linksAmount.getText().isEmpty()){
                     return false;
                 }

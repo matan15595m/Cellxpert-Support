@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CellxpertSupport:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb17c616-9ff1-406f-8d0a-ccc662f778f1" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cb17c616-9ff1-406f-8d0a-ccc662f778f1" name="Changes" comment="excel files commit2">
+      <change afterPath="$PROJECT_DIR$/src/assets/atsign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/dollar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/position.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/quotmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/register.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CellxpertSupport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CellxpertSupport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/GenerateCommandLinksFromXLSFileFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/GenerateCommandLinksFromXLSFileFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/GenerateDepositsCommandLinksFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/GenerateDepositsCommandLinksFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/GeneratePositionsCommandLinksFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/GeneratePositionsCommandLinksFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/quotation.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
@@ -122,7 +123,12 @@
       <workItem from="1705652953873" duration="9093000" />
       <workItem from="1705739185026" duration="3377000" />
       <workItem from="1705742582243" duration="4616000" />
-      <workItem from="1705760194393" duration="20818000" />
+      <workItem from="1705760194393" duration="21271000" />
+      <workItem from="1705957807717" duration="1113000" />
+      <workItem from="1706037900260" duration="5025000" />
+      <workItem from="1706119725427" duration="4788000" />
+      <workItem from="1706213455883" duration="2214000" />
+      <workItem from="1706275304890" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -148,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705659864017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="excel files commit">
+      <option name="closed" value="true" />
+      <created>1705789854230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705789854230</updated>
+    </task>
+    <task id="LOCAL-00005" summary="excel files commit2">
+      <option name="closed" value="true" />
+      <created>1705789890277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705789890277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +190,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="excel files commit" />
+    <MESSAGE value="excel files commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="excel files commit2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

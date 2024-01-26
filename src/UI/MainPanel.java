@@ -28,27 +28,38 @@ public class MainPanel extends JPanel implements ActionListener {
         CommandLinks.setFont(new Font("Arial",Font.BOLD,15));
         CommandLinks.setIcon(new ImageIcon("src/assets/command.png"));
         GenerateCommandLinks = new JMenu("Generate command links");
+        GenerateCommandLinks.setIcon(new ImageIcon("src/assets/cmdlinks.png"));
         GenerateCommandLinksFile = new JMenu("Generate command links from file");
+        GenerateCommandLinksFile.setIcon(new ImageIcon("src/assets/file.png"));
         GenerateFromExel = new JMenu("Generate from Excel file");
+        GenerateFromExel.setIcon(new ImageIcon("src/assets/excel.png"));
         CommandLinks.add(GenerateCommandLinks);
         CommandLinks.add(GenerateCommandLinksFile);
         GenerateCommandLinksFile.add(GenerateFromExel);
 
         AddAndRemoveSeparators = new JMenuItem("Add/Remove Separators");
+        AddAndRemoveSeparators.setIcon(new ImageIcon("src/assets/quotmark.png"));
         AddAndRemoveSeparators.addActionListener(this);
         AddAndRemoveMarks = new JMenuItem("Add/Remove Marks");
+        AddAndRemoveMarks.setIcon(new ImageIcon("src/assets/atsign.png"));
         AddAndRemoveMarks.addActionListener(this);
         Registrations = new JMenuItem("Registrations");
+        Registrations.setIcon(new ImageIcon("src/assets/register.png"));
         Registrations.addActionListener(this);
         Deposits = new JMenuItem("Deposits (Transactions)");
+        Deposits.setIcon(new ImageIcon("src/assets/dollar.png"));
         Deposits.addActionListener(this);
         Positions = new JMenuItem("Positions");
+        Positions.setIcon(new ImageIcon("src/assets/position.png"));
         Positions.addActionListener(this);
         CSVFile = new JMenuItem("Generate from .CSV file");
+        CSVFile.setIcon(new ImageIcon("src/assets/csv.png"));
         CSVFile.addActionListener(this);
         XLSXFile = new JMenuItem(".XLSX file");
+        XLSXFile.setIcon(new ImageIcon("src/assets/xlsx.png"));
         XLSXFile.addActionListener(this);
         XLSFile = new JMenuItem(".XLS file");
+        XLSFile.setIcon(new ImageIcon("src/assets/xls.png"));
         XLSFile.addActionListener(this);
         SeparatorAndMarks = new JMenu("Separators and Marks");
         SeparatorAndMarks.setFont(new Font("Arial",Font.BOLD,15));
@@ -107,6 +118,9 @@ public class MainPanel extends JPanel implements ActionListener {
         }
         if (e.getSource() == XLSFile && GenerateCommandLinksFromXLSXFileFrame.getFrameCounter() == 0){
             GenerateCommandLinksFromXLSFileFrame frame = new GenerateCommandLinksFromXLSFileFrame();
+        }
+        if (e.getSource() == CSVFile && GenerateCommandLinksFromCSVFileFrame.getFrameCounter() == 0){
+            GenerateCommandLinksFromCSVFileFrame frame = new GenerateCommandLinksFromCSVFileFrame();
         }
     }
 }
